@@ -15,6 +15,8 @@ class Cuenta
         $this->saldo = $saldo;
     }
     
-    
+    public function setNombre($nombre){
+        $this->nombre = $nombre;
+    }
 
 }
